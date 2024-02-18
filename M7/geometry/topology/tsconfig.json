@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "files": {
+    "include": [
+      "geometry/Sphere.ts",
+      "geometry/prism.ts",
+      "geometry/prism2",
+      "geometry/Octahedron.ts",
+      "geometry/Octahedron2.ts",
+      "geometry/tetrahedron.ts",
+      "geometry/tetrahedron2.ts",
+      "geometry/sphere2.ts",
+      "geometry/Pyramid.ts",
+      "geometry/Pyramid2.ts",
+      "geometry/Pyramid3.js",
+      "geometry/Dodecahedorn.ts",
+      "geometry/Dodecahedron2.ts",
+      "geometry/Icosahedron.ts",
+      "geometry/Dodecahedron2.ts"
+    ],
+    "exclude": [
+      "geometry/topology/LieGroup.ts",
+      "geometry/topology/ChenClass.ts",
+      "geometry/topology/manifold.ts",
+      "geometry/topology/orbifold.ts"
+    ]
+  }
+}

@@ -1,0 +1,2 @@
+const NEWTON_GRAVITATIONAL_CONSTANT: number = 6.67430e-11
+console.log(`牛顿引力常数 G = ${NEWTON_GRAVITATIONAL_CONSTANT}`);
