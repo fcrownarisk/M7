@@ -26,4 +26,4 @@ function calculateIcosahedronVerticesAndEdges(radius: number): { vertices: [numb
 // Example usage:
 const icosahedronInfo = calculateIcosahedronVerticesAndEdges(1);
 console.log('Icosahedron Vertices in Spherical Coordinates:', icosahedronInfo.vertices);
-console.log('Icosahedron Sidelength:', edgeLength);
+console.log('Icosahedron length:', length);
